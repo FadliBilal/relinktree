@@ -10,13 +10,13 @@ function App() {
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-blue-200 via-blue-300 to-blue-400 text-gray-900 flex flex-col items-center justify-center px-4">
-      {}
+      {/* Profile Section */}
       <div className="text-center">
         <div className="relative group">
           <img
             src="/img/prof.png"
             alt="Profile"
-            className="w-36 h-36 rounded-full mx-auto mb-6 border-[6px] border-blue-300 shadow-[0_8px_15px_rgba(0,0,0,0.2)] group-hover:shadow-[0_12px_25px_rgba(0,0,0,0.4)] transition-shadow duration-500"
+            className="w-36 h-36 mx-auto mb-6 border-[6px] border-blue-300 rounded-lg shadow-[0_8px_15px_rgba(0,0,0,0.2)] group-hover:shadow-[0_12px_25px_rgba(0,0,0,0.4)] transition-shadow duration-500"
           />
         </div>
         <h1 className="text-4xl font-extrabold text-blue-900 tracking-wide drop-shadow-lg">
@@ -27,7 +27,7 @@ function App() {
         </p>
       </div>
 
-      {}
+      {/* Links Section */}
       <div className="mt-10 w-full max-w-md space-y-6">
         {links.map((link) => (
           <a
@@ -42,7 +42,7 @@ function App() {
         ))}
       </div>
 
-      {}
+      {/* Footer Section */}
       <footer className="mt-12 text-blue-600 text-xs">
         © {new Date().getFullYear()} Fadli Bilal Afifuddin. All rights reserved.
       </footer>
